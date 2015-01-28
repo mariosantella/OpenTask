@@ -1,0 +1,364 @@
+/* Reset && General settings done by Foundation framework */
+
+/*
+DEFAULT COLOURS=
+
+maincol = #008080
+textcol = #765f5f
+backgroundcol = #f2f2f2
+errcol = #ff0000
+okcol =  #128612
+impcol = #ff6600
+*/
+
+/* backgrounds */
+.backgroundcl{
+padding-bottom: 1em;
+background-color: #fbfbfb;
+}
+
+/* LINKS */
+a{color:#008080;}
+a:visited{color:#008080;}
+
+/* TEXT */
+body{font-family:Lato;color:#765f5f;}
+.xtrasmalltext > *{font-size: 0.7em!important;}
+/* .bordato{border:1px solid #000;} */
+/* TITLES & HEADING */
+h1{font-size: 1.2em;color: #008080;font-family:Lato;font-weight:bold;}
+h2{font-size:1.2em;color:#008080;font-family:Lato}
+h3{font-size:1.1em;color:#008080;font-family:Lato}
+
+/* TABLES TEXT */
+td > a > h2 {font-size:1em;}
+td > h2 {font-size:1em;}
+
+/* BUTTONS */
+.variantbutton{
+background-color: #fff;
+border: 1px solid #ddd;
+color: green;
+}
+
+/* FLAGS */
+.flag {
+	width: 16px;
+	height: 11px;
+	background:url(../img/flags.png) no-repeat;
+	cursor:pointer;
+}
+
+.flag.flag-uk {background-position: -16px 0}
+.flag.flag-it {background-position: 0 -11px}
+
+/* NAVS */
+
+.pointer{cursor:pointer;}
+.headerNav > ul > li
+
+{
+	float: right;
+	width: auto;
+	height: auto;
+	list-style-type: none;
+	margin-left: 5%;
+}
+
+
+.iconNav{
+	background-image: url('../img/spriteicn.png');
+	background-size: 190px;
+	height: 21px;
+	width: 20px;
+	display: inline-block;
+	margin-right: 0.2em;
+}
+
+#briefingArea .iconNav{background-position: 0 0;}
+#preventivi .iconNav{background-position: 0px 118px;}
+#calendar .iconNav{background-position: 0 -62px;}
+#tasks .iconNav{background-position: 0 -93px;}
+#crm .iconNav{background-position: 0 21px;}
+
+
+.itemSideNav{width: auto;
+	height: auto;
+	list-style-type: none;
+	margin-top:1em;
+	border-bottom: 1px solid #fff;
+}
+#home .iconNav{background-position: 158px -1px;}
+#vendite .iconNav{background-position: 159px -33px;}
+#clienti .iconNav{background-position: -31px -64px;}
+#fatture .iconNav{background-position: 159px -92px;}
+#contifondi .iconNav{background-position: 151px 21px;background-size: 180px;}
+#spese .iconNav{background-position: -63px 0;}
+#tasseadem .iconNav{background-position: -63px 112px;}
+#monitoraproj .iconNav{background-position: -61px -354px;}
+#datiproj .iconNav{background-position: -62px -94px;}
+
+/* section{background-image:url('../img/test_plc.png');height: 534px;background-size: 100%;} */
+
+
+/*ALIGNMENTS*/
+
+.alg_left{padding-left: 1.2em!important;}
+
+/* MONTHLY WORKS AREA */
+.azionivendite{float:right;clear:right;position: relative;top: 30px;}
+.azionivendite > ul > li {list-style-type:none;}
+.azionivendite > ul > li > a{text-decoration:none;color:#333; font-size:14px;} 
+.azione {
+display: inline-block;
+font-size: 18px;
+padding: 11px 22px;
+background-color: #00b0ea;
+border: 1px solid #029cce;
+outline: 0;
+cursor: pointer;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color:#fff!important;
+margin-right:20px;
+}
+
+.tabmese{border:1px solid #ccc;width:auto;cursor:pointer;color:#fff;}
+.tabmese > i {visibility:hidden;} 
+#mese1 > div {display:none;}
+#mese2 > div {display:none;}
+#mese3 > div {display:none;}
+#mese4 > div {display:none;}
+#mese5 > div {display:none;}
+#mese6 > div {display:none;}
+#mese7 > div {display:none;}
+#mese8 > div {display:none;}
+#mese9 > div {display:none;}
+#mese10 > div {display:none;}
+#mese11 > div {display:none;}
+#mese12 > div {display:none;}
+.titlemese{text-transform: uppercase;font-size:20px;font-weight:bold;text-align:center;display:block!important;color:#008080;}
+
+.pannellonuova{
+	width: auto;
+	height: auto;
+	border-radius: 0px;
+	padding: 42px;
+	display:none;
+}
+
+.pannellonuova > form > input {width:300px;height:28px;}
+.pannellonuova > form > select {width:300px;}
+.pannellonuova > form > input:lastchild {padding:10px;}
+
+.nometab{width:69%;background-color:#def;color:#888;display:inline-block;text-align:center;}
+.importotab{width:29%;background-color:#eee;color:green;display:inline-block;text-align:center;}
+.riganome{width:67%;border-bottom:1px solid #ccc;display:inline-block;padding:5px;z-index:+5;}
+.rigaimp{width:25%;border-bottom:1px solid #ccc;display:inline-block;text-align:center;padding:5px;z-index:+5;color:#765f5f;font-weight:bold;}
+
+.totale{
+font-weight: bold;
+color: #00b0ea;
+font-size: 23px;
+background-color: #efefef;
+border-radius: 5px;
+padding: 6px;
+float:right;
+clear:both;
+}
+
+.pannellomod > form > input {width:auto;height:28px;}
+.pannellomod > form > select {width:auto;}
+.pannellomod > form > input:lastchild {padding:10px;}
+.pannellomod{
+	width: auto;
+	height: auto;
+	border-radius: 0px;
+	padding: 42px;
+	
+}
+
+/* CLIENT TABLE */
+
+.pannellocli > form > input {width:345px;height:28px;font-size: 12px;}
+.pannellocli > form > select {width:300px;}
+.pannellocli > form > input:lastchild {padding:10px;}
+.pannellocli{
+	
+}
+.pannellocli > form > span {
+	display:inline-block;
+	width:100px;color: #222;
+	background-color: #fff;
+	padding:2px;
+	border-radius:4px;
+	}
+.listaclienti{	
+height: 400px!important;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+/* BILLING AREA */
+
+.voci{
+	background-color:#fff;
+	border-radius:5px;
+	}
+.voce{width: 78%!important;
+display: inline!important;}
+.importo{
+text-align: right;
+width: 22%!important;
+display: inline!important;}
+
+.tabfatture > td{
+background-color: orange;
+border: 1px solid;
+padding: 3px;
+} 
+
+#datafattura{display: inline;width: 50%;}
+#numerofattura{width: 33%;display: inline;}
+
+/* FORM INLINE */
+.formagg > *{display:inline!important;}
+.campoagg{
+	width:40%!important;
+	color: green!important;
+	font-size: 1.2em!important;
+	text-align: right!important;
+	margin-right: 1em!important;
+	height: 2.4em!important;}
+	
+.amountArea{border: 1px solid #eee;
+border-radius: 5px;
+font-weight: bold;
+background-color: #efefef;}
+
+.campoagg{width: 90px;}
+.amount{
+	position: relative;
+left: 70px;
+font-size: 42px;
+color: green;
+	
+}
+
+.itotali{
+color: yellow;
+background-color: #64728C;
+font-size: 33px;	
+}
+
+.elemproj{
+border: 1px solid #ccc;
+width:80%;
+padding:20px;
+border-radius:6px;
+color: #333;
+}
+
+.pulscloseproj{
+		font-size: 33px;
+		font-weight: bold;
+		display: none;
+		float: right;
+		position: relative;
+		bottom: 2px;
+		color: white;
+		letter-spacing: 5px;
+}	
+
+.header{
+	border: 1px solid #ccc;	
+	height:80px;
+	width:900px;
+	margin-left:200px;
+	}
+.hlist > li{	
+	float: left;
+	border: 1px solid #333;
+	padding: 10px;
+	}
+.cella{
+	padding: 22px;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.blankpass{color:#fff;}
+
+.iaddacc{width:100%!important;}
+.loaderArea{text-align:center;}
+.loaderGif{width:200px;}
+
+/* Smart tasks */
+
+.number{
+		background-color: #668cd9;
+		display: inline-block;
+		font-size: 1em;
+		position: absolute;
+		top: 0em;
+		border-radius: 0.3em;
+		width: 3em;
+		text-align: center;
+		left: 0em;
+		height: auto;
+		color: #fff;
+		padding-top: 0.6em;
+		padding-bottom: 0.7em;
+		}
+
+.task{
+		position:relative;
+		background-color: #eee;
+		border: 1px solid #ccc;
+		border-radius: 0.3em;
+		height: auto;
+		color: #000;
+		font-weight: bold;
+		font-size: 1.2em;
+		margin-top: 1em;
+		list-style-type: none;
+		padding-top: 0.7em;
+		padding-left: 3em;
+		cursor:text;	
+		line-height:1em;
+		padding-bottom: 0.5em;
+		
+		}
+.task > p {line-height:0.5em;}		
+
+.task:hover{border: 1px dashed #afafaf;}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; cursor:move; }
+#sortable li span.ui-icon { position: absolute; margin-left: -1.3em; }
+
+.tasktxt{
+	margin-left: 2.5em;
+	font-size: 0.8em;
+	font-weight: normal;
+	}
+.delete{
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+	float: right;
+	margin-right: 3em;
+	font-size: 1.5em;}
+	
+.saveTip{
+	display: inline-block;
+	margin-left: 0em;
+	background-color: red;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	padding: 0.8em;
+	position: relative;
+	top: 0.1em;	
+	}
